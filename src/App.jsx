@@ -1,9 +1,14 @@
 import "./App.css";
+import Hero from "./Components/Hero";
 import NavbarArea from "./Components/Navbar";
 function App() {
   return (
     <>
-      <NavbarArea />
+     <main className="overflow-x-hidden">
+     <NavbarArea />
+      
+      <Hero/>
+     </main>
     </>
   );
 }

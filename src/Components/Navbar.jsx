@@ -4,7 +4,7 @@ import {Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button} from "@nex
 function NavbarArea() {
   return (
     <>
-      <Navbar shouldHideOnScroll isBlurred={false} className='bg-secondary w-full' maxWidth='xl'>
+      <Navbar shouldHideOnScroll isBlurred={false} className='bg-secondary w-full lg:px-20' maxWidth='xl'>
         <NavbarBrand>
           <div className='w-16'>
           <img src="Logo.png" alt="" />
