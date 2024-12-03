@@ -2,6 +2,9 @@ import React from 'react'
 import Apostofy from '../assets/apostopy.png'
 import Ellipse2 from '../assets/ellipse 2.png'
 import Ellipse4 from '../assets/ellipse 4.png'
+import Left from '../assets/left.png'
+import Right from '../assets/right.png'
+
 
 function Testimonial() {
   return (
@@ -17,6 +20,11 @@ function Testimonial() {
             <img src={Ellipse2} alt="" />
             <img src={Ellipse4} alt="" />
             <img src={Ellipse4} alt="" />
+        </div>
+        <div className='flex justify-between -mt-48'>
+            <img src={Left} alt="" />
+            <img src={Right} alt="" />
+
         </div>
     </div>
     </div>
