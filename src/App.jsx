@@ -7,7 +7,8 @@ import CardReuse from './Components/CardReuse';
 import Train from "./Components/Train";
 import Allocate from "./Components/Allocate";
 import Embrace from "./Components/Embrace";
-
+import Copyright from "./Components/Copyright";
+import Testimonial from "./Components/Testimonial";
 function App() {
   return (
     <>
@@ -18,8 +19,10 @@ function App() {
       <CompanyLogo/>
      <CardReuse/>
      <Train/>
+     <Testimonial/>
      <Allocate/>
      <Embrace/>
+     <Copyright/>
      </main>
     </>
   );
