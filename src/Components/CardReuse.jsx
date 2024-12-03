@@ -26,7 +26,7 @@ function CardReuse() {
       <div className="container mx-auto">
       <div className='grid grid-cols-1 sm:grid-cols-3 gap-10 px-5 lg:px-10 '>
           {CardList.map((item, i)=> (
-              <div key= {i} className= 'gap-5'>
+              <div key= {i} className= 'gap-10'>
               <div className='max-h-12 max-w-12 w-4/5'>
                 <img src={item.icon} alt="" />
               </div>
