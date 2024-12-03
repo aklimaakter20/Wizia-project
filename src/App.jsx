@@ -6,6 +6,7 @@ import NavbarArea from "./Components/Navbar";
 import CardReuse from './Components/CardReuse';
 import Train from "./Components/Train";
 import Allocate from "./Components/Allocate";
+import Embrace from "./Components/Embrace";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
      <CardReuse/>
      <Train/>
      <Allocate/>
+     <Embrace/>
      </main>
     </>
   );
