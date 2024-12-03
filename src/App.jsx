@@ -5,6 +5,8 @@ import Hero from "./Components/Hero";
 import NavbarArea from "./Components/Navbar";
 import CardReuse from './Components/CardReuse';
 import Train from "./Components/Train";
+import Allocate from "./Components/Allocate";
+
 function App() {
   return (
     <>
@@ -15,6 +17,7 @@ function App() {
       <CompanyLogo/>
      <CardReuse/>
      <Train/>
+     <Allocate/>
      </main>
     </>
   );
