@@ -1,5 +1,6 @@
 import React from 'react'
 import Logo2 from '../assets/Logo2.png'
+
 function Copyright() {
   return (
     <section className='bg-[#07292F]'>
