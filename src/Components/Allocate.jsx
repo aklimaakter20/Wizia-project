@@ -12,15 +12,15 @@ function Allocate() {
     <div>
         <div className='flex flex-col sm:flex-row gap-5 sm:gap-10 lg:gap-20'>
             <div>
-                <h4 className='text-primary text-xl font-bold '>32%</h4>
+                <h4 className='text-primary text-xl sm:text-3xl font-bold '>32%</h4>
                 <p className='text-xs text-foreground w-[100px] py-2'>Improvement in Open Rates</p>
             </div>
             <div>
-                <h4 className='text-primary text-xl font-bold '>75%</h4>
+                <h4 className='text-primary text-xl sm:text-3xl font-bold '>75%</h4>
                 <p className='text-xs text-foreground w-[100px] py-2'>Improvement in Ramp Time</p>
             </div>
             <div>
-                <h4 className='text-primary text-xl font-bold '>35%</h4>
+                <h4 className='text-primary text-xl sm:text-3xl font-bold '>35%</h4>
                 <p className='text-xs text-foreground w-[100px] py-2'>Improvement in Meetings Booked</p>
             </div>
         </div>

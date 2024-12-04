@@ -10,7 +10,7 @@ function CompanyLogo() {
     <section className='bg-[#07292F] py-6'>
  <div className="container mx-auto ">
     <h6 className='text-primary uppercase text-center text-sm py-10'>our trusted partners</h6>
-    <div className='grid grid-cols-2 sm:grid-cols-4 px-2 sm:px-5 lg:px-20'>
+    <div className='grid grid-cols-2 sm:grid-cols-3 px-2 sm:px-5 lg:px-20'>
     <img src={BacHub} alt="" />
     <img src={Amd} alt="" />
     <img src={CableLabs} alt="" />

@@ -7,7 +7,7 @@ function Train() {
     <div className='sm:text-center'>
     <h2 className='text-foreground text-2xl sm:text-3xl lg:text-4xl'>Train your aiDR on your...</h2>
     <h4 className='text-primary italic text-2xl py-2'>prefered email st|</h4>
-    <p className='text-foreground text-sm font-thin lg:text-xl w-2/3 lg:w-1/2 py-4 sm:py-6 lg:mx-auto '>You’re in control. Train your aiDR on elements of your Marketing strategy on elements of .</p>
+    <p className='text-foreground text-sm font-thin lg:text-xl w-2/3 lg:w-1/2 py-4 sm:py-6 sm:mx-auto '>You’re in control. Train your aiDR on elements of your Marketing strategy on elements of .</p>
     </div>
 
    <div className='py-10 text-start lg:w-1/2 mx-auto '>

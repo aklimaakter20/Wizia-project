@@ -7,20 +7,20 @@ function Navbar() {
    const [open, setOpen] = useState(false)
    const Theme = useTheme();
    const IsMobile = useMediaQuery(Theme.breakpoints.down("sm"))
-
    const menuItems = ["About Us", "Pricing", "Customers", "Solutions"];
   return (
     <>
       <AppBar elevation={0} className='Navbar' position='static' sx={{
         backgroundColor: "white",
          color:"inherit",
-        justifyContent: "space-around"
+        justifyContent: "space-around",
+       
          }}/>
       <Toolbar>
         {IsMobile? (
             <div>
                 <IconButton color='' onClick={()=> setOpen(true)}>
-                    <MenuIcon />
+                    <MenuIcon  sx={{color:'#fff'}}/>
                     </IconButton>
             </div>
         ) : (
@@ -42,9 +42,9 @@ function Navbar() {
                 color: "black", 
                 backgroundColor:"#0FF1F9",
                 borderRadius: "10px",
-                mr: 3,
+                mr: 2,
                 textTransform: "capitalize",
-                ml: 30,
+                ml: 20,
                 "&:hover": {
                     backgroundColor: "#0FF1F8",
                 }

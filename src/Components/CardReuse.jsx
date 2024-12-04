@@ -24,10 +24,10 @@ function CardReuse() {
   return (
     <section className='py-20'>
       <div className="container mx-auto">
-      <div className='grid grid-cols-1 sm:grid-cols-3 gap-10 px-5 lg:px-10 '>
+      <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 px-5 lg:px-10 '>
           {CardList.map((item, i)=> (
-              <div key= {i} className= 'gap-10'>
-              <div className='max-h-12 max-w-12 w-4/5'>
+              <div key= {i} className= 'gap-10 hover:bg-[#07292F] px-8 py-6 rounded-3xl duration-700 '>
+              <div className='max-h-12 max-w-12 w-4/5 hover:shadow-background'>
                 <img src={item.icon} alt="" />
               </div>
               <div>
