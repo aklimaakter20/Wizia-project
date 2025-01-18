@@ -1,7 +1,7 @@
 import React from 'react'
 import Apostofy from '../assets/apostopy.png'
-import Ellipse2 from '../assets/ellipse 2.png'
-import Ellipse4 from '../assets/ellipse 4.png'
+import Ellipse2 from '/Ellipse2.png'
+import Ellipse4 from '/Ellipse4.png'
 import Left from '../assets/left.png'
 import Right from '../assets/right.png'
 
